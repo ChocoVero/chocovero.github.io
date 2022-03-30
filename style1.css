@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(214, 227, 231);
+}
+
+.img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    margin-top: 10%;
+    text-align: right;
+    max-width: 95%;
+    float: right;
+}
+
+.header1{
+    margin-top: 10%;
+    margin-right: 20%;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-align: center;
+    line-height: 150%;
+}
+
+#header2{
+    font-style: italic;
+    color: darkblue;
+}
+
+#intro{
+    float: left;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 50%;
+    line-height: 150%;
+    color: rgb(88, 77, 77);
+}
+
+.ribbon {
+    margin-left: 5%;
+    margin-right: 50%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+}
+
+.ribbon:after,
+.ribbon:before {
+    margin-top: 0.5em;
+    content: "";
+    display: flex;
+    ;
+    border: 1.5em solid #fff;
+}
+
+.ribbon:after {
+    border-right-color: transparent;
+}
+
+.ribbon:before {
+    border-left-color: transparent;
+}
+
+.ribbon a:link,
+.ribbon a:visited {
+    color: #000;
+    text-decoration: none;
+    height: 3.5em;
+    overflow: hidden;
+}
+
+.ribbon span {
+    background: #fff;
+    display: inline-block;
+    line-height: 3em;
+    padding: 0 1.5em;
+    margin-top: 0.5em;
+    position: relative;
+    -webkit-transition: background-color 0.2s, margin-top 0.2s;
+    /* Saf3.2+, Chrome */
+    -moz-transition: background-color 0.2s, margin-top 0.2s;
+    /* FF4+ */
+    -ms-transition: background-color 0.2s, margin-top 0.2s;
+    /* IE10 */
+    -o-transition: background-color 0.2s, margin-top 0.2s;
+    /* Opera 10.5+ */
+    transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.ribbon a:hover span {
+    background: #04a3ff4f;
+    margin-top: 0;
+}
+
+.ribbon span:before {
+    content: "";
+    position: absolute;
+    top: 3em;
+    left: 0;
+    border-right: 0.5em solid #518da0;
+    border-bottom: 0.5em solid #fff;
+}
+
+.ribbon span:after {
+    content: "";
+    position: absolute;
+    top: 3em;
+    right: 0;
+    border-left: 0.5em solid #518da0;
+    border-bottom: 0.5em solid #fff;
+}
+
+.target{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: larger;
+    color: rgb(58, 66, 110);
+}
+
+.quote{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.name{
+    float: right;
+    margin-right: 3%;
+    font-weight: bold;
+    
+}
+
+.job{
+    float: right;
+    margin-right: 3%;
+    margin-top: 1%;
+    color: dimgray;
+}

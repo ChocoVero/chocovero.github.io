@@ -1,0 +1,22 @@
+div{
+    margin-left: 10%;
+}
+
+h1{
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;  
+    font-style: italic;
+    color: rgb(58, 66, 110);
+}
+
+P{
+    margin-left: 7%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    line-height: 175%;
+    color: rgba(4, 3, 8, 0.616);
+}
